@@ -1,0 +1,23 @@
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 10ch 1fr;
+    grid-gap: 10px;
+}
+
+select,
+input {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 1px rgb(20,20,20) solid;
+    height: 1.5rem;
+}
+
+select { 
+    height: 2rem;
+}
