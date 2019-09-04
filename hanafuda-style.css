@@ -3,10 +3,6 @@ html, body {
     margin: 0;
 }
 
-:root {
-    --card-back: #671509;
-}
-
 #card-grid {
     display: grid;
     grid-template-columns: repeat(11, 125px);
@@ -36,7 +32,7 @@ html, body {
 }
 
 div.card {
-    border: 8px solid var(--card-back);
+    border: 8px solid #671509;
     border-radius: 3px;
     position: relative;
 }
@@ -54,5 +50,5 @@ div.card img {
     right: 0;
     bottom: 0;
     left: 0;
-    background: var(--card-back);
+    background: #671509;
 }
